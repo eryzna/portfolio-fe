@@ -17,10 +17,10 @@ export default class RowTwo extends Component {
                     </div>
                     <div class="row nested-rows">
                       <div class="col-md-6 themed-grid-col" id="nested-6-1">
-                        <img src="/Sunset-1-l.png" alt="sunset" height="100%" width="100%"></img>
+                        <img src="Sunset-1-l.png" alt="sunset" height="100%" width="100%"></img>
                       </div>
                       <div class="col-md-6 themed-grid-col" id="nested-6-2">
-                        <img src="/Sunset-1-r.png" alt="sunset" height="100%" width="100%"></img>
+                        <img src="Sunset-1-r.png" alt="sunset" height="100%" width="100%"></img>
                       </div>
                     </div>
                 </div>
