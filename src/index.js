@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
      
-     <Route exact path="/"component={App} />
+     <Route exact path="/portfolio-fe/"component={App} />
      
   
     </Router>
