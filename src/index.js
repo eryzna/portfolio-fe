@@ -9,12 +9,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-     
-     <Route exact path="/portfolio-fe/"component={App} />
-     
-  
-    </Router>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
