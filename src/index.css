@@ -68,22 +68,38 @@ h1, h2, h3, h4, h5, p {
  /*background-color: rgba(6, 71, 250, 0.5);*/
 }
 
+.carousel-images:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  transition: background-color 0.4s;
+}
+.carousel-images:hover:after {
+  background-image: url('Sunset2-2-r.png');
+  background-size: 100%
 
- .carousel-item img:after {
+}
+
+ /*.carousel-item img:after {
      content: '';
      position: absolute;
      top: 0;
      left: 0;
      right: 0;
      bottom: 0;
+     background-color: pink;
      transition: background-color 0.4s;
  }
  .carousel-item img:hover:after {
    background-image: url("Sunset2-2-r.png");
    background-size:100%
     /*background-image: linear-gradient( rgba(255, 51, 245, 0.432), rgba(255, 51, 78, 0.548), rgba(0, 100, 250, 0.5));*/
-    /*background-color: rgba(6, 71, 250, 0.5);*/
- }
+    /*background-color: rgba(6, 71, 250, 0.5);
+ }*/
 
  /*#neon-cat {
    z-index: 200;

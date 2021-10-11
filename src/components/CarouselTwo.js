@@ -10,14 +10,14 @@ export default class CarouselTwo extends Component {
         <div id="myCarouselTwo" class="carousel slide carousel-2" data-bs-ride="carousel-2">
         
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active carousel-images">
             <img src="/StippleSkull_1.png" height="390px" alt="skull illustration"></img>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item carousel-images">
             <img src="/Gustav-2.png" id="Gustav-2" height="390px" alt="pink cat illustration"></img>
 
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item carousel-images">
               <img src="/Gustav-1.jpg" id="Gustav-1" height="390px" alt="green cat illustration"></img>
                 
           </div>
