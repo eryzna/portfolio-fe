@@ -81,7 +81,6 @@ h1, h2, h3, h4, h5, p {
 .carousel-images:hover:after {
   background-image: url('Sunset2-2-r.png');
   background-size: 100%
-
 }
 
  /*.carousel-item img:after {
@@ -225,6 +224,11 @@ nav {
   color: #393e41;
   margin-bottom: 0px;
   
+}
+
+.grid-text:hover {
+  background-image: url("Sunset2-middle.png");
+  background-size: 100%;
 }
 
 
