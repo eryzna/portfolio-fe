@@ -35,7 +35,7 @@ export default class CarouselOne extends Component {
         
         <div class="carousel-inner">
 
-          <div class="carousel-item active">
+          <div class="carousel-item active carousel-one">
             <svg class="bd-placeholder-img" 
             width="100%" height="260px" 
             xmlns="http://www.w3.org/2000/svg" 

@@ -4,5 +4,6 @@ TO DO
  :Lightbox for artwork
  :Fix links to dev projects
  :Transition animations
- :Media queries
+ :Fix Media queries
  :Nav bar links and pages
+ 
