@@ -31,18 +31,68 @@ h1, h2, h3, h4, h5, p {
   opacity: 50%;
   }*/
 
- .carousel-item:after {
+  /*a:after {
+    content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     transition: background-color 0.4s;
+  }
+
+  a:hover:after {
+    background-image: url("Sunset2-1-m.png");
+    background-size:cover
+  }*/
+
+  .carousel-item {
+    background-color: #e7e5df;
+  }
+
+ .carousel-item a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  transition: background-color 0.4s;
+}
+.carousel-item a:hover:after {
+  
+  background-image: url("Sunset2-1-m.png");
+  background-size:100%
+ /*background-image: linear-gradient( rgba(255, 51, 245, 0.432), rgba(255, 51, 78, 0.548), rgba(0, 100, 250, 0.5));*/
+ /*background-color: rgba(6, 71, 250, 0.5);*/
+}
+
+
+ .carousel-item img:after {
      content: '';
      position: absolute;
      top: 0;
      left: 0;
      right: 0;
      bottom: 0;
-     transition: background-image 0.4s;
+     transition: background-color 0.4s;
  }
- .carousel-item:hover:after {
-    background-image: linear-gradient( rgba(255, 51, 51, 0.2), rgba(51, 255, 255, 0.2), rgba(153,153,255, 0.2));
-    
+ .carousel-item img:hover:after {
+   background-image: url("Sunset2-2-r.png");
+   background-size:100%
+    /*background-image: linear-gradient( rgba(255, 51, 245, 0.432), rgba(255, 51, 78, 0.548), rgba(0, 100, 250, 0.5));*/
+    /*background-color: rgba(6, 71, 250, 0.5);*/
+ }
+
+ /*#neon-cat {
+   z-index: 200;
+   background-image: url("Sunset2-1-r.png");
+   background-size:contain
+ }*/
+
+ #sunset-1-r {
+   z-index: -5
  }
 
 .carousel-control-next-img {

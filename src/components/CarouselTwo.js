@@ -10,7 +10,7 @@ export default class CarouselTwo extends Component {
         <div id="myCarouselTwo" class="carousel slide carousel-2" data-bs-ride="carousel-2">
         
         <div class="carousel-inner">
-          <div class="carousel-item active carousel-two">
+          <div class="carousel-item active">
             <img src="/StippleSkull_1.png" height="390px" alt="skull illustration"></img>
           </div>
           <div class="carousel-item">

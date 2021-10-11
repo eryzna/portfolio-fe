@@ -20,7 +20,7 @@ export default class RowOne extends Component {
                 <CarouselOne />
               </div>
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-2">
-                <img src="/Sunset2-2-r.png" alt="sunset" height="100%" width="100%"></img>
+                <img src="/Sunset2-1-r.png" alt="sunset" height="100%" width="100%"></img>
               </div>
             </div>
             
