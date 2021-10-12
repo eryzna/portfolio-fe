@@ -11,7 +11,7 @@ export default class RowOne extends Component {
           <div class="container-fluid">
             <div class="row mb-auto row-1">
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-1">
-                <img src="/Sunset2-1-l.png" alt="sunset" height="100%" width="100%"></img>
+                <img src="/Sunset3-1-l.png" alt="sunset" height="100%" width="100%"></img>
               </div>
               <div class="col-md-6 themed-grid-col grid-border" id="r1-6">
                 <div class= "grid-border" id="grid-label">
@@ -20,7 +20,7 @@ export default class RowOne extends Component {
                 <CarouselOne />
               </div>
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-2">
-                <img src="/Sunset2-1-r.png" alt="sunset" height="100%" width="100%"></img>
+                <img src="/Sunset3-1-r.png" alt="sunset" height="100%" width="100%"></img>
               </div>
             </div>
             
