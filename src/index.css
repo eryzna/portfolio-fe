@@ -14,16 +14,26 @@ h1, h2, h3, h4, h5, p {
 }
 /*{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e")}*/
 
+#carousel-2-next, #carousel-2-prev {
+  width: 16%;
+  opacity:100%;
+  padding-top: 160px
+  
+}
+#carousel-1-next, #carousel-1-prev {
+  opacity:100%
+}
+
+
 .carousel-control-next,.carousel-control-prev{
   position:absolute;
   top:0;
   bottom:0;
-  z-index:1;
+  z-index:0;
   display:flex;
   align-items:flex-end;
   justify-content:center;
-  width:15%;
-  
+  width:12%;
   color:#fff;
   text-align:center;
   background:0 0;
@@ -38,20 +48,21 @@ h1, h2, h3, h4, h5, p {
   width:100%;
   height:25%;
   background-repeat:no-repeat;
-  background-position: bottom;
-  
-  
 }
   
 .carousel-control-prev-icon{
-  background-image:url("prev-icon-test-05.png");
+  background-image:url("Arrow3Prev-05.svg");
   background-size: 75px 75px;
+  
 }
 
 .carousel-control-next-icon {
-  background-image: url("next-test-04.png");
+  background-image: url("Arrow3Next-04.svg");
   background-size: 75px 75px;
+  
 }
+
+
 
 .carousel-caption {
   font-family: 'Catamaran', sans-serif;
@@ -71,7 +82,7 @@ h1, h2, h3, h4, h5, p {
   left: 0;
   right: 0;
   bottom: 0;
-  
+  z-index: 1;
   transition: background-color 0.4s;
 }
 .carousel-item a:hover:after {
@@ -176,7 +187,9 @@ nav {
 
 #nav-link-1:hover, #nav-link-2:hover, #nav-link-3:hover, #nav-link-4:hover{
   font-style:italic;
-  color: orangered
+  color: orangered;
+  text-decoration:underline;
+  text-decoration-style: wavy
 }
 
 #nav-link-1:link:visited, #nav-link-2:link:active, #nav-link-3:link:active, #nav-link-4:link:active{
@@ -256,7 +269,9 @@ nav {
   align-items:center
 }
 
-
+#r1-6 {
+  position: relative;
+}
 
 
 #nested-8 {

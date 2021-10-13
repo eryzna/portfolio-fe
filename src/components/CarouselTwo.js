@@ -23,11 +23,11 @@ export default class CarouselTwo extends Component {
           </div>
         </div>
 
-        <button class="carousel-control-prev control-button" type="button" data-bs-target="#myCarouselTwo" data-bs-slide="prev">
+        <button class="carousel-control-prev control-button" id="carousel-2-prev" type="button" data-bs-target="#myCarouselTwo" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarouselTwo" data-bs-slide="next">
+        <button class="carousel-control-next" id="carousel-2-next" type="button" data-bs-target="#myCarouselTwo" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
