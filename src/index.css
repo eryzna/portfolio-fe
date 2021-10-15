@@ -18,12 +18,15 @@ h1, h2, h3, h4, h5, p {
   width: 16%;
   opacity:100%;
   padding-top: 160px
-  
 }
+
 #carousel-1-next, #carousel-1-prev {
   opacity:100%
 }
 
+#acanthus {
+  z-index: -5
+}
 
 .carousel-control-next,.carousel-control-prev{
   position:absolute;
@@ -168,20 +171,16 @@ nav {
 
 .navbar {
   background-color: #e7e5df;
-  background-image: url("Sunset3-top.png");
-}
-
-.navbar:hover {
-  background-image: url("Sunset3-top.png");
   
 }
+
 
 #icon {
   height: 4rem;
 }
 
 #nav-link-1, #nav-link-2, #nav-link-3, #nav-link-4 {
-  color: #e7e5df;
+  color: #393e41;
   font-size: 2rem
 }
 

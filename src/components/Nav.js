@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+//<a class="brand" href="#">
+//                      <img src="Stars-06.svg" class="brand" id="icon" alt="cat silhouette"></img>
+//                      </a>
+
 export default class Nav extends Component {
     
 
