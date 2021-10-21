@@ -117,7 +117,9 @@ export default class CarouselOne extends Component {
         </div>
         
         <button class="carousel-control-prev" type="button" id="carousel-1-prev" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <img src="./Arrow3Next-04.svg"></img>
+          </span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" id="carousel-1-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
