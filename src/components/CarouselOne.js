@@ -110,7 +110,7 @@ export default class CarouselOne extends Component {
                 <p>A full-stack Ruby on Rails application to connect with and exchange seeds with neighbors.</p>
               </div>
               <a href="https://youtu.be/6vMSosxNMcc">
-                <rect width="100%" height="100%" fill="#e7e5df"/>
+                <rect width="100%" height="100%" />
               </a>
             </div>
           </div>

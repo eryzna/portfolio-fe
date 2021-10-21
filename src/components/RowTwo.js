@@ -12,10 +12,10 @@ export default class RowTwo extends Component {
   getLeftMountain = () => {
     let mountain = document.getElementById("mountain-l")
     mountain.addEventListener('click', () => {
-      if (mountain.getAttribute("src") == "/Mountain_L_1.png") {
-        mountain.src = "/Mountain_L_2.png"
+      if (mountain.getAttribute("src") == "./Mountain_L_1.png") {
+        mountain.src = "./Mountain_L_2.png"
       } else {
-        mountain.src = "/Mountain_L_1.png"
+        mountain.src = "./Mountain_L_1.png"
       }
     })
   }
@@ -23,10 +23,10 @@ export default class RowTwo extends Component {
   getRightMountain = () => {
     let mountain = document.getElementById("mountain-r")
     mountain.addEventListener('click', () => {
-      if (mountain.getAttribute("src") == "/Mountain_R_1.png") {
-        mountain.src = "/Mountain_R_2.png"
+      if (mountain.getAttribute("src") == "./Mountain_R_1.png") {
+        mountain.src = "./Mountain_R_2.png"
       } else {
-        mountain.src = "/Mountain_R_1.png"
+        mountain.src = "./Mountain_R_1.png"
       }
     })
   }
@@ -44,10 +44,10 @@ export default class RowTwo extends Component {
                     </div>
                     <div class="row nested-rows">
                       <div class="col-md-6 themed-grid-col" id="nested-6-1">
-                        <img src="/Mountain_L_1.png" id="mountain-l" alt="mountain" height="100%" width="100%"></img>
+                        <img src="./Mountain_L_1.png" id="mountain-l" alt="mountain" height="100%" width="100%"></img>
                       </div>
                       <div class="col-md-6 themed-grid-col" id="nested-6-2">
-                        <img src="/Mountain_R_1.png" id="mountain-r" alt="mountain" height="100%" width="100%"></img>
+                        <img src="./Mountain_R_1.png" id="mountain-r" alt="mountain" height="100%" width="100%"></img>
                       </div>
                     </div>
                 </div>
