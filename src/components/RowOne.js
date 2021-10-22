@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CarouselOne from './CarouselOne.js'
+import '../index.css';
 export default class RowOne extends Component {
     
     componentDidMount = () => {

@@ -1,32 +1,7 @@
 import React, { Component } from 'react';
 
-export default class CarouselOne extends Component {
 
-  //imgHover = () => {
-  //  let divEl = document.querySelector('#nested-4');
-  //  let imgOne = document.querySelector('#Gustav-1');
-  //  //let imgOne = document.getElementsByTagName('img');
-  //  //let imgOne = document.querySelector('#Gustav-1')
-  //  //let imgTwo = document.querySelector('#Gustav-2')
-  //  let items = [...document.getElementsByClassName('carousel-item')];
-//
-  //  items.forEach(e => e.addEventListener ('mouseover', () => 
-  //      e.classList.add('overlay')
-  //  ))
-//
-  //  items.forEach(e => e.addEventListener ('mouseleave', () => 
-  //      e.classList.remove('overlay')
-  //  ))
-//
-  //  divEl.addEventListener('mouseenter', () => 
-  //    divEl.style.backgroundColor = "blue"
-  //  )
-  //  imgOne.addEventListener('mouseenter', () => 
-  //    imgOne.style.backgroundColor = "blue"
-  //  )
-  //  divEl.addEventListener('mouseover', () => console.log('Event: mouseover'));
-  //  }
-//
+export default class CarouselOne extends Component {
 
     render() {
         
@@ -117,8 +92,8 @@ export default class CarouselOne extends Component {
         </div>
         
         <button class="carousel-control-prev" type="button" id="carousel-1-prev" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true">
-            <img src="./Arrows-01.png"></img>
+          <span class="carousel-control-prev-icon" aria-hidden="none">
+            
           </span>
           <span class="visually-hidden">Previous</span>
         </button>
