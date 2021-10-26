@@ -21,7 +21,7 @@ export default class Nav extends Component {
                     <div class="collapse navbar-collapse" id="navbarsExample09">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0" > 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#" id="nav-link-1">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/" id="nav-link-1">Home</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#" id="nav-link-2">Development</a>

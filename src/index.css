@@ -16,12 +16,14 @@ h1, h2, h3, h4, h5, p {
 
 #carousel-2-next, #carousel-2-prev {
   width: 16%;
-  opacity:100%;
+  opacity:1;
   padding-top: 160px
 }
 
 #carousel-1-next, #carousel-1-prev {
-  opacity:100%
+  opacity:1;
+  z-index: 5;
+  
 }
 
 #acanthus {
