@@ -5,6 +5,7 @@ export default class RowOne extends Component {
     
     componentDidMount = () => {
       this.getCactus()
+      this.getCat()
     }
 
     
@@ -19,6 +20,19 @@ export default class RowOne extends Component {
         }
       })
       
+    }
+
+    getCat = () => {
+      let cat = document.getElementById("cat-1")
+      cat.addEventListener('click', () => {
+        if (cat.getAttribute("src") == "./Cat_1.png") {
+          console.log('cat 1')
+          cat.src = "./Cat_2.png"
+        } else {
+          console.log('cat-2')
+          cat.src = "./Cat_1.png"
+        }
+      })
     }
 
    
@@ -43,7 +57,7 @@ export default class RowOne extends Component {
                 <CarouselOne />
               </div>
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-2">
-                <a href="#"><img src="./Cat_Sketch_1.png" alt="sunset" height="100%" width="100%"></img></a>
+                <a href="#"><img src="./Cat_1.png" id="cat-1" alt="sketch of cat" height="100%" width="100%"></img></a>
               </div>
             </div>
             
