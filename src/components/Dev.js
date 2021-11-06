@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-export default class Contact extends Component {
+export default class Dev extends Component {
 
     render() {
         return (
-            <h1> YOOOOOOOOOOO
+            <h1> DEV PAGE
             </h1>
 
         )
