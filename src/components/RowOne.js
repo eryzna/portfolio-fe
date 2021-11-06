@@ -13,10 +13,10 @@ export default class RowOne extends Component {
     getCactus = () => {
       let cactus = document.getElementById("cactus-1")
       cactus.addEventListener('click', () => {
-        if (cactus.getAttribute("src") == "./Cactus1_125_2.png") {
-          cactus.src = "./Cactus2_125.png"
+        if (cactus.getAttribute("src") == "portfolio-fe/Cactus1_125_2.png") {
+          cactus.src = "portfolio-fe/Cactus2_125.png"
         } else {
-          cactus.src = "./Cactus1_125_2.png"
+          cactus.src = "portfolio-fe/Cactus1_125_2.png"
         }
       })
       
@@ -25,12 +25,12 @@ export default class RowOne extends Component {
     getCat = () => {
       let cat = document.getElementById("cat-1")
       cat.addEventListener('click', () => {
-        if (cat.getAttribute("src") == "./Cat_1.png") {
+        if (cat.getAttribute("src") == "portfolio-fe/Cat_1.png") {
           console.log('cat 1')
-          cat.src = "./Cat_2.png"
+          cat.src = "portfolio-fe/Cat_2.png"
         } else {
           console.log('cat-2')
-          cat.src = "./Cat_1.png"
+          cat.src = "portfolio-fe/Cat_1.png"
         }
       })
     }
@@ -57,7 +57,7 @@ export default class RowOne extends Component {
                 <CarouselOne />
               </div>
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-2">
-                <a href="#"><img src="Cat_1.png" id="cat-1" alt="sketch of cat" height="100%" width="100%"></img></a>
+                <a href="#"><img src="portfolio-fe/Cat_1.png" id="cat-1" alt="sketch of cat" height="100%" width="100%"></img></a>
               </div>
             </div>
             
