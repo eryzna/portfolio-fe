@@ -41,4 +41,5 @@ export default class CarouselTwo extends Component {
             
             )
 
-      }}
+      }
+    }
