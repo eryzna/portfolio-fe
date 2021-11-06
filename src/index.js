@@ -12,19 +12,17 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 ReactDOM.render(
   
   <React.StrictMode>
-    <Router>
-     
-     <Route exact path="/portfolio-fe"component={App} />
-     <Route exact path="/art" component={Art} />
-     <Route exact path="/development" component={Dev} />
-     <Route exact path="/contact" component={Contact} />
-     
-  
-    </Router>
-
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+//<Router>
+//     <Route exact path="/portfolio-fe"component={App} />
+//     <Route exact path="/art" component={Art} />
+//     <Route exact path="/development" component={Dev} />
+//     <Route exact path="/contact" component={Contact} />
+//    </Router>
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
