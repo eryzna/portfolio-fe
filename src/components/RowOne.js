@@ -47,7 +47,7 @@ export default class RowOne extends Component {
           <div class="container-fluid">
             <div class="row mb-auto row-1">
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-1">
-                <a href="#"><img src="portfolio-fe/Cactus1_125_2.png" id="cactus-1" alt="cactus" height="100%" width="100%"></img></a>
+                <a href="#"><img src="portfolio-fe/Cactus1_125_2.png" id="cactus-1" alt="sketch of cactus" height="100%" width="100%"></img></a>
 
               </div>
               <div class="col-md-6 themed-grid-col grid-border" id="r1-6">

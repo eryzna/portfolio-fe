@@ -44,10 +44,10 @@ export default class RowTwo extends Component {
                     </div>
                     <div class="row nested-rows">
                       <div class="col-md-6 themed-grid-col" id="nested-6-1">
-                        <a href="#"><img src="portfolio-fe/Mountain_L_1.png" id="mountain-l" alt="mountain" height="100%" width="100%"></img></a>
+                        <a href="#"><img src="portfolio-fe/Mountain_L_1.png" id="mountain-l" alt="sketch of mountain with moon" height="100%" width="100%"></img></a>
                       </div>
                       <div class="col-md-6 themed-grid-col" id="nested-6-2">
-                        <a href="#"><img src="portfolio-fe/Mountain_R_1.png" id="mountain-r" alt="mountain" height="100%" width="100%"></img></a>
+                        <a href="#"><img src="portfolio-fe/Mountain_R_1.png" id="mountain-r" alt="sketch of mountain with sun" height="100%" width="100%"></img></a>
                       </div>
                     </div>
                 </div>
