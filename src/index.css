@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, p {
   display:flex;
   align-items:flex-end;
   justify-content:center;
-  
+  width:12%;
   color:#fff;
   text-align:center;
   background:0 0;
