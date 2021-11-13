@@ -26,9 +26,6 @@ h1, h2, h3, h4, h5, p {
   
 }
 
-#acanthus {
-  z-index: -5
-}
 
 .carousel-control-next,.carousel-control-prev{
   position:absolute;
@@ -66,10 +63,7 @@ h1, h2, h3, h4, h5, p {
 .carousel-control-next-icon {
   background-image: url("imgs/ArrowNext.svg");
   background-size: 75px 75px;
-  
 }
-/*assets/Arrow3Next-04.svg*/
-
 
 .carousel-caption {
   font-family: 'Catamaran', sans-serif;
@@ -96,8 +90,6 @@ h1, h2, h3, h4, h5, p {
   background-color: orangered;
   opacity: 0.7;
   background-size:100%;
- /*background-image: linear-gradient( rgba(255, 51, 245, 0.432), rgba(255, 51, 78, 0.548), rgba(0, 100, 250, 0.5));*/
- /*background-color: rgba(6, 71, 250, 0.5);*/
 }
 
 .carousel-images:after {
@@ -110,38 +102,12 @@ h1, h2, h3, h4, h5, p {
   
   transition: background-color 0.4s;
 }
+
 .carousel-images:hover:after {
   background-color:orangered;
   opacity: 0.7;
   background-size: 100%
 }
-
- /*.carousel-item img:after {
-     content: '';
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     background-color: pink;
-     transition: background-color 0.4s;
- }
- .carousel-item img:hover:after {
-   background-image: url("Sunset2-2-r.png");
-   background-size:100%
-    /*background-image: linear-gradient( rgba(255, 51, 245, 0.432), rgba(255, 51, 78, 0.548), rgba(0, 100, 250, 0.5));*/
-    /*background-color: rgba(6, 71, 250, 0.5);
- }*/
-
- /*#neon-cat {
-   z-index: 200;
-   background-image: url("Sunset2-1-r.png");
-   background-size:contain
- }*/
-
- #sunset-1-r {
-   z-index: -5
- }
 
 .carousel-control-next-img {
   
@@ -425,5 +391,18 @@ nav {
     height: 285px;
   }
 
+}
+
+
+/* iPads, tablets */
+
+@media (max-width: 703px) {
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    position: absolute;
+    bottom: -8px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 19%
+  }
 }
 
