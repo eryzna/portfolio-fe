@@ -26,9 +26,6 @@ h1, h2, h3, h4, h5, p {
   
 }
 
-#acanthus {
-  z-index: -5
-}
 
 .carousel-control-next,.carousel-control-prev{
   position:absolute;
@@ -400,8 +397,12 @@ nav {
 /* iPads, tablets */
 
 @media (max-width: 703px) {
-  .carousel-control-next-icon {
-    padding-right: 20px
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    position: absolute;
+    bottom: -8px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 19%
   }
 }
 
