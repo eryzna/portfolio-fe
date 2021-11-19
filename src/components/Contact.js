@@ -7,8 +7,9 @@ export default class Contact extends Component {
         return (
             <>
             <Nav />
-            <h1> YOOOOOOOOOOO
-            </h1>
+            <div class="container-fluid">
+            <h1> Contact page forthcoming...</h1>
+            </div>
             </>
 
         )

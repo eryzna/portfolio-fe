@@ -7,8 +7,10 @@ export default class Art extends Component {
         return (
             <>
             <Nav />
-            <h1> ART PAGE
+            <div class="container-fluid">
+            <h1> Art page forthcoming...
             </h1>
+            </div>
             </>
 
         )
