@@ -17,7 +17,7 @@ export default class DevRow extends Component {
             </div>
             <div class="row">
               <div class="col grid-border">
-                <img class="img-fluid" src="portfolio-fe/Gustav-1.png" width="58%"></img>
+                <img class="img-fluid" src="/portfolio-fe/Gustav-1.png" width="58%"></img>
               </div>
             </div>
             

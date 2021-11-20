@@ -7,3 +7,8 @@ TO DO
  :Fix Media queries
  :Nav bar links and pages
  
+
+
+ DEPLOYING
+ imgs: /portolio-fe/img
+ package.json: https://eryzna.github.io/portfolio-fe
