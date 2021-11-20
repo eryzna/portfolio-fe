@@ -8,7 +8,16 @@ export default class Contact extends Component {
             <>
             <Nav />
             <div class="container-fluid">
-            <h1> Contact page forthcoming...</h1>
+                <div class="row">
+                  <div class="col grid-border">
+                    <h2>Contact page forthcoming...</h2>  
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col grid-border">
+                    <img class="img-fluid" src="portfolio-fe/Gustav-4.png" width="32.5%"></img>
+                  </div>
+                </div>
             </div>
             </>
 
