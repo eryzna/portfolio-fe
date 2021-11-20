@@ -14,9 +14,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
      <Route exact path="/portfolio-fe"component={App} />
-     <Route exact path="/art" component={Art} />
-     <Route exact path="/development" component={Dev} />
-     <Route exact path="/contact" component={Contact} />
+     <Route exact path="/portfolio-fe/art" component={Art} />
+     <Route exact path="/portfolio-fe/development" component={Dev} />
+     <Route exact path="/portfolio-fe/contact" component={Contact} />
     </Router>
 
   </React.StrictMode>,
