@@ -393,6 +393,11 @@ nav {
 
 }
 
+.art-images {
+  height: 390px; 
+  width: 100%
+}
+
 
 /* iPads, tablets */
 
@@ -404,5 +409,12 @@ nav {
   .carousel-control-next, .carousel-control-prev {
     width: 19%
   }
+  .art-images {
+    height: 300px;
+  }
+  /*#skull, #pink-cat, #green-cat, #thorens {
+    height: auto;
+  }*/
+  
 }
 
