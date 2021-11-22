@@ -11,18 +11,18 @@ export default class CarouselTwo extends Component {
         
         <div class="carousel-inner">
           <div class="carousel-item active carousel-images">
-            <img id="skull" class="art-images" src="portfolio-fe/StippleSkull_thumb.png"  alt="skull illustration"></img>
+            <img id="skull" class="art-images" src="/portfolio-fe/StippleSkull_thumb.png"  alt="skull illustration"></img>
           </div>
           <div class="carousel-item carousel-images">
-            <img src="portfolio-fe/Gustav-2.png" class="art-images" id="pink-cat" alt="pink cat illustration"></img>
+            <img src="/portfolio-fe/Gustav-2.png" class="art-images" id="pink-cat" alt="pink cat illustration"></img>
 
           </div>
           <div class="carousel-item carousel-images">
-            <img src="portfolio-fe/Thorens_thumb.png" class="art-images" id="thorens"  alt="illustration of music box"></img>
+            <img src="/portfolio-fe/Thorens_thumb.png" class="art-images" id="thorens"  alt="illustration of music box"></img>
 
           </div>
           <div class="carousel-item carousel-images">
-              <img src="portfolio-fe/Gustav-1.jpg" class="art-images" id="green-cat" alt="green cat illustration"></img>
+              <img src="/portfolio-fe/Gustav-1.jpg" class="art-images" id="green-cat" alt="green cat illustration"></img>
                 
           </div>
         </div>

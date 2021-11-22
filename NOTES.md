@@ -12,3 +12,5 @@ TO DO
  DEPLOYING
  imgs: /portolio-fe/img
  package.json: https://eryzna.github.io/portfolio-fe
+
+ LOCAL

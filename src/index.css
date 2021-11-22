@@ -194,6 +194,12 @@ nav {
   border-color: #393e41;
 }
 
+.grid-border-top {
+  border-top: 1rem;
+  border-style: solid;
+  border-color: #393e41;
+}
+
 .right-border {
   border-right-width: 1rem;
   border-style: solid;
@@ -233,7 +239,7 @@ nav {
 }
 
 
-#r1-6, #col-3-1, #col-3-2  {
+#col-3-1, #col-3-2  {
   height: 275px;
   
   margin:0;
@@ -243,6 +249,14 @@ nav {
 
 #r1-6 {
   position: relative;
+  height: 275px;
+  
+  margin:0;
+  padding: 0;
+  align-items:center;
+  border-bottom-width: 1rem;
+  border-style: solid;
+  border-color: #393e41;
 }
 
 

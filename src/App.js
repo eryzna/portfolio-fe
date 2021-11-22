@@ -11,7 +11,6 @@ import './bootstrap/bootstrap.min.css'
 function App() {
   return (
     <>
-    <Nav />
     <RowOne />
     <RowTwo />
     </>

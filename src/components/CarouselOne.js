@@ -12,7 +12,7 @@ export default class CarouselOne extends Component {
 
           <div class="carousel-item active carousel-one">
             <svg class="bd-placeholder-img" 
-            width="100%" height="260px" 
+            width="100%" height="242.5px" 
             xmlns="http://www.w3.org/2000/svg" 
             aria-hidden="true" 
             preserveAspectRatio="xMidYMid slice" 
@@ -32,7 +32,7 @@ export default class CarouselOne extends Component {
           <div class="carousel-item">
             <svg 
             class="bd-placeholder-img carousel-one" 
-            width="100%" height="260px" 
+            width="100%" height="242.5px" 
             xmlns="http://www.w3.org/2000/svg" 
             aria-hidden="true" 
             preserveAspectRatio="xMidYMid slice" 
@@ -53,7 +53,7 @@ export default class CarouselOne extends Component {
           <div class="carousel-item">
             <svg 
             class="bd-placeholder-img carousel-one" 
-            width="100%" height="260px" 
+            width="100%" height="242.5px" 
             xmlns="http://www.w3.org/2000/svg" 
             aria-hidden="true" 
             preserveAspectRatio="xMidYMid slice" 
@@ -73,7 +73,7 @@ export default class CarouselOne extends Component {
           <div class="carousel-item">
           <svg 
             class="bd-placeholder-img carousel-one" 
-            width="100%" height="260px" 
+            width="100%" height="242.5px" 
             xmlns="http://www.w3.org/2000/svg" 
             aria-hidden="true" 
             preserveAspectRatio="xMidYMid slice" 
