@@ -244,6 +244,14 @@ nav {
   color: #e7e5df;
 }
 
+.skills-icons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  margin-bottom: 0px;
+}
 
 #col-3-1, #col-3-2  {
   height: 275px;
