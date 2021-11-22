@@ -17,13 +17,19 @@ h1, h2, h3, h4, h5, p {
 #carousel-2-next, #carousel-2-prev {
   width: 16%;
   opacity:1;
-  padding-top: 160px
+  padding-top: 160px;
+  padding-bottom: 2px;
+}
+
+#carousel-2-prev {
+  padding-left: 0px;
+  width: 23%
 }
 
 #carousel-1-next, #carousel-1-prev {
   opacity:1;
   z-index: 5;
-  
+  padding-bottom: 2px;
 }
 
 
@@ -247,6 +253,27 @@ nav {
   align-items:center
 }
 
+#carousel-2 {
+  border-left-width: 1rem;
+
+  border-style: solid;
+  border-color: #393e41;
+}
+
+#art-label {
+  z-index: 2;
+  position: absolute;
+  border-left-width: 1rem;
+  border-style: solid;
+  border-color: #393e41;
+  border-top: 0;
+  background-color: white;
+  font-family: 'Catamaran', sans-serif;
+  color:hsl(203, 7%, 24%);
+  padding: 5px;
+  padding-bottom: 0;
+}
+
 #r1-6 {
   position: relative;
   height: 275px;
@@ -261,6 +288,22 @@ nav {
 
 #nested-8 {
   height: 200px;
+  padding-bottom: 0!important;
+  border-bottom-width: 1rem;
+  border-style: solid;
+  border-color: #393e41;
+}
+
+#nested-9 {
+  height: 103px;
+  border-bottom-width: 1rem;
+  border-left-width: 1rem;
+  border-style: solid;
+  border-color: #393e41;
+}
+
+#nested-7 {
+  height: 108px;
   padding-bottom: 0!important;
 }
 
@@ -342,12 +385,12 @@ nav {
   background-color: #e7e5df
 }
 
-#nested-4 {
+/*#nested-4 {
   border-left-width: 1rem;
   border-style: solid;
   border-color: #393e41;
   background-color: #e7e5df
-}
+}*/
 
 #col-3-1 {
   background-color: #e7e5df
