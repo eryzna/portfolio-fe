@@ -57,7 +57,7 @@ export default class RowTwo extends Component {
                 
                 <div class="col-md-4 themed-grid-col" id="nested-4">
                   <div class="pb-3 nested-rows" id="nested-9">
-                      <h2 class=""> Hello</h2>
+                      <img class="img-fluid" src="/portfolio-fe/Sunset.png"></img>
                     </div> 
                   <div class= "grid-border" id="art-label">
                     <h4>Art</h4>
