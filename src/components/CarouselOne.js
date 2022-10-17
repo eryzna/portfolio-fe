@@ -65,6 +65,7 @@ export default class CarouselOne extends Component {
                 <p>A full-stack Ruby on Rails/Javascript SPA to view and record adult monarch butterfly sightings.</p>  
               </div>
               <a href="https://youtu.be/Nj9n71LtZf4">
+                
                 <rect width="100%" height="100%" fill="#e7e5df"/>
               </a>
             </div>
